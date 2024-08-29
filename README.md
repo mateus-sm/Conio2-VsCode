@@ -1,9 +1,11 @@
-# Conio2---VsCode
+# Conio2-VsCode
 ### Será necessário utilizar o compilador TDM-GCC 4.7.1 (x86) (Versão Modificada).
 ### Compilador incluso com os arquivos do Dev-C++(Fornecido pela faculdade) caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
 ### Compilador incluso neste repositório.
 
-## I. Instalar e configurar a extensão - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+*** 
+
+## I. Instalar e configurar a extensão - Code Runner <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"><img src = "https://github.com/mateus-sm/Images/blob/main/CodeRunner.png"></a>
 ```bash
 A extensão servirá para definir como o VsCode irá executar o código em questão, nesse caso será configurado para arquivos .cpp
 ```
@@ -31,15 +33,19 @@ O vscode irá chamar o compilador g++ então é necessário que ele esteja no PA
     C:\ ... \Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin
 
 #### Para testar abra o cmd e digite: "g++ --version" e verifique se obtem o retorno: "g++ (tdm64-1) 4.7.1"
+![CMD](https://github.com/mateus-sm/Images/blob/main/cmd.png)
+
 ***
 
-## III. Instalar e configurar a extensão - [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
+## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%2B%2B.png" width = "70"></a>
 ```bash
 A extensão servirá para as correções em tempo real do código, Intelisense.
 ```  
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
+![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
 #### 3. Clique em "Editar a configuração de IncludePath".
+![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath2.png)
 #### 4. Substitua "Caminho do compilador" por um dos caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
     C:\ ... \Dev-Cpp\MinGW64\bin\gcc.exe 
