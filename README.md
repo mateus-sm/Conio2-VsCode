@@ -1,7 +1,7 @@
 # Conio2-VsCode
 ### Será necessário utilizar o compilador TDM-GCC 4.7.1 (x86) (Versão Modificada).
-### Compilador incluso com os arquivos do Dev-C++(Fornecido pela faculdade) + Configuração do Conio2. Caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
-### Compilador incluso neste repositório. O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
+### Compilador incluído com os arquivos do Dev-C++(Fornecido pela faculdade) + Configuração do Conio2. Caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
+### Compilador incluído neste repositório. O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
 
 *** 
 
