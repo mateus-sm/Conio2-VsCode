@@ -1,7 +1,7 @@
 # Conio2-VsCode
 ### Será necessário utilizar o compilador TDM-GCC 4.7.1 (x86) (Versão Modificada).
-### Compilador incluso com os arquivos do Dev-C++(Fornecido pela faculdade) caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
-### Compilador incluso neste repositório.
+### Compilador incluso com os arquivos do Dev-C++(Fornecido pela faculdade) + Configuração do Conio2. Caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
+### Compilador incluso neste repositório. O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
 
 *** 
 
@@ -11,11 +11,12 @@ A extensão servirá para definir como o VsCode irá executar o código em quest
 ```
 #### 1. Instale a extensão.
 #### 2. Configurações da extensão -> Executor Map(Editar em Json).
-#### 3. Substitua a instrução "cpp" da extensão pela instrução abaixo, Substitua (...) de acordo com o caminho da sua máquina.
+![Config](https://github.com/mateus-sm/Images/blob/main/Config.png)
+#### 3. Substitua a instrução ["cpp": " ..... ",] da extensão pela instrução abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
     "code-runner.executorMap": {  
 
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -I\"C:\\ ... \\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include\" -L\"C:\\ ... \\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\lib32\" -static-libgcc -lconio -m32 && start $fileNameWithoutExt.exe",  
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -I\"C:\\ ... \\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include\" -L\"C:\\ ... \\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\lib32\" -static-libgcc -lconio -m32 && start $fileNameWithoutExt.exe",  
 
     }
 
@@ -26,7 +27,7 @@ A extensão servirá para definir como o VsCode irá executar o código em quest
 É necessário que o compilador seja adicionado a variavel de ambiente, caso já exista outro é necessária remoção.
 O vscode irá chamar o compilador g++ então é necessário que ele esteja no PATH.
 ```
-#### 1. Acesse e edite o PATH.
+#### 1. Acesse e edite o PATH ([Tutorial](https://www.youtube.com/watch?v=ing2pLCrvxo)).
 #### 2. Adicione os caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
     C:\ ... \Dev-Cpp\MinGW64\bin
