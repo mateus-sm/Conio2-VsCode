@@ -1,14 +1,13 @@
 # Conio2-VsCode
 ### Será necessário utilizar o compilador TDM-GCC 4.7.1 (x86) (Versão Modificada).
-### Compilador incluído com os arquivos do Dev-C++(Fornecido pela faculdade) + Configuração do Conio2. Caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
-### Compilador incluído neste repositório. O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
+### Obter o compilador através de um dos métodos: 
+### 1. Usar o compilador incluído com os arquivos do Dev-C++(Fornecido pela faculdade) + Configuração do Conio2. *Caso queira desinstalar o Dev-C++ retire o compilador de dentro dos arquivos para utilizar na compilação.
+### 2. Usar o compilador incluído neste repositório(MinGW64.7z). O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
 
-*** 
+***
 
 ## I. Instalar e configurar a extensão - Code Runner <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"><img src = "https://github.com/mateus-sm/Images/blob/main/CodeRunner.png"></a>
-```bash
-A extensão servirá para definir como o VsCode irá executar o código em questão, nesse caso será configurado para arquivos .cpp
-```
+> ### A extensão servirá para definir como o VsCode irá executar o código em questão, nesse caso será configurado para arquivos .cpp
 #### 1. Instale a extensão.
 #### 2. Configurações da extensão -> Executor Map(Editar em Json).
 ![Config](https://github.com/mateus-sm/Images/blob/main/Config.png)
@@ -20,13 +19,20 @@ A extensão servirá para definir como o VsCode irá executar o código em quest
 
     }
 
+#### Exemplos de caminho:
+#### Compilador dentro do Dev-C++
+```bash
+    -I\"C:\\Arquivos de Programa (x86)\\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include\"
+```
+#### Compilador fora do Dev-C++
+```bash
+    -I\"C:\\Users\\User1\\Downloads\\MinGW64\\x86_64-w64-mingw32\\include\"
+```
+
 ***
  
 ## II. Configurar o PATH
-```bash
-É necessário que o compilador seja adicionado a variavel de ambiente, caso já exista outro é necessária remoção.
-O vscode irá chamar o compilador g++ então é necessário que ele esteja no PATH.
-```
+> ### É necessário que o compilador seja adicionado a variavel de ambiente, caso já exista outro compilador de C/C++ é necessária remoção. O vscode irá chamar o compilador g++ então é necessário que ele esteja no PATH.
 #### 1. Acesse e edite o PATH ([Tutorial](https://www.youtube.com/watch?v=ing2pLCrvxo)).
 #### 2. Adicione os caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
@@ -39,9 +45,7 @@ O vscode irá chamar o compilador g++ então é necessário que ele esteja no PA
 ***
 
 ## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%2B%2B.png" width = "70"></a>
-```bash
-A extensão servirá para as correções em tempo real do código, Intelisense.
-```  
+> ### A extensão servirá para as correções em tempo real do código, Intelisense.
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
