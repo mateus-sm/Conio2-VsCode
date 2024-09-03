@@ -49,7 +49,7 @@
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
-#### 3. Clique em "Editar a configuração de IncludePath".
+#### 3. Clique em "Editar a configuração de IncludePath" -> Selecione a pasta do arquivo caso o vscode pergunte.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath2.png)
 #### 4. Substitua "Caminho do compilador" por um dos caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
@@ -58,6 +58,14 @@
     
  #### 5. Em "Modo do IntelliSense" coloque ${default}.
  #### 6. Em "Incluir caminho" apague todo o conteúdo.
+
+
+ ### Como executar o arquivo : 
+1. Botão direitro do mouse + Run Code  
+2. CTRL + ALT + N
+3. Opcional: Desativar botão de depuração(Canto superior Direito) deixando apenas o de executar o código.
+   Configurações VsCode -> Pesquise C_Cpp.debugShortcut e desative.  
+ ![RunA](https://github.com/mateus-sm/Images/blob/main/RunA.png)
+ ![RunB](https://github.com/mateus-sm/Images/blob/main/RunB.png)
  
  ## Reinicie o VsCode.
- 
