@@ -34,13 +34,15 @@
 ## II. Configurar o PATH
 > ### É necessário que o compilador seja adicionado a variavel de ambiente, caso já exista outro compilador de C/C++ é necessária remoção. O vscode irá chamar o compilador g++ então é necessário que ele esteja no PATH.
 #### 1. Acesse e edite o PATH ([Tutorial](https://www.youtube.com/watch?v=ing2pLCrvxo)).
-#### 2. Adicione os caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
+#### 2. Adicione o caminho abaixo, Substitua (...) de acordo com o caminho da sua máquina.
 
     C:\ ... \Dev-Cpp\MinGW64\bin
-    C:\ ... \Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin
 
 #### Para testar abra o cmd e digite: "g++ --version" e verifique se obtem o retorno: "g++ (tdm64-1) 4.7.1"
 ![CMD](https://github.com/mateus-sm/Images/blob/main/cmd.png)
+
+### Caso queira manter outro compilador no path, basta manter abaixo do recém colocado, e quando quiser usar o antigo coloque o mesmo por cima. Os caminhos são priorizados de cima para baixo.
+![PATH](https://github.com/mateus-sm/Images/blob/main/path.png)
 
 ***
 
@@ -49,6 +51,7 @@
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
+#### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configis por meio da lampada novamente. Ex: escrever #include <xxx.h>
 #### 3. Clique em "Editar a configuração de IncludePath" -> Selecione a pasta do arquivo caso o vscode pergunte.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath2.png)
 #### 4. Substitua "Caminho do compilador" por um dos caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
