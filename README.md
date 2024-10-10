@@ -51,7 +51,7 @@
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
-#### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configis por meio da lampada novamente. Ex: escrever #include <xxx.h>
+#### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configurações por meio da lampada novamente. Ex: escrever #include <xxx.h>
 #### 3. Clique em "Editar a configuração de IncludePath" -> Selecione a pasta do arquivo caso o vscode pergunte.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath2.png)
 #### 4. Substitua "Caminho do compilador" por um dos caminhos abaixo, Substitua (...) de acordo com o caminho da sua máquina.
