@@ -19,15 +19,8 @@
 
     }
 
-#### Exemplos de caminho:
-#### Compilador dentro do Dev-C++
-```bash
-    -I\"C:\\Arquivos de Programa (x86)\\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include\"
-```
-#### Compilador fora do Dev-C++
-```bash
-    -I\"C:\\Users\\User1\\Downloads\\MinGW64\\x86_64-w64-mingw32\\include\"
-```
+#### Exemplo:
+![Gif Demonstração](https://github.com/mateus-sm/Images/blob/main/Exemplo-CodeRunner.gif)  
 
 ***
  
@@ -65,15 +58,14 @@
  #### 5. Em "Modo do IntelliSense" coloque ${default}.
  #### 6. Em "Incluir caminho" apague todo o conteúdo.
 
+#### Exemplo:
+ ![Gif Demonstração](https://github.com/mateus-sm/Images/blob/main/Exemplo-C++.gif)  
+
 ***
 
  ### Como executar o arquivo : 
 #### Opção 1. Botão direitro do mouse + Run Code  
 #### Opção 2. CTRL + ALT + N
-#### Opção 3. Opcional: Desativar botão de depuração(Canto superior Direito) deixando apenas o de executar o código.
-   #### Configurações VsCode -> Pesquise C_Cpp.debugShortcut e desative.  
- ![RunA](https://github.com/mateus-sm/Images/blob/main/RunA.png)
- ![RunB](https://github.com/mateus-sm/Images/blob/main/RunB.png)
  
  ## Reinicie o VsCode.
 
