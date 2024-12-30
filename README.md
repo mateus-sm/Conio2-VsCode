@@ -42,10 +42,10 @@
 ## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%2B%2B.png" width = "70"></a>
 > ### A extensão servirá para as correções em tempo real do código, Intelisense.
 #### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
-> ### É necessário que seja feito em uma pasta pois, ao configurar os passos abaixo, a extensão criará uma pasta .vscode dentro da pasta que você estiver trabalhando, essa pasta irá conter as configurações que farão com que o código funcione corretamente, então, toda vez que uma pasta nova for criada que não contenha esse .vscode, será necessario seguir os passos abaixo para que ela seja criada. Desta forma recomendo que, crie uma pasta geral para todos os códigos de C (Ex: ATP2), qualquer pasta dentro desta já estará configurada (Ex: Aula1, Aula2, Aula3...).
+> ### É necessário que seja feito em uma pasta pois, ao configurar os passos abaixo, a extensão criará um arquivo .vscode dentro da pasta que você estiver trabalhando, esse arquivo(.vscode) irá conter as configurações que farão com que o código funcione corretamente, então, toda vez que uma pasta nova for criada que não contenha esse arquivo(.vscode), será necessario seguir os passos abaixo para que ele seja criado. Desta forma recomendo que, crie uma pasta geral para todos os códigos de C (Ex: ATP2), qualquer pasta dentro desta já estará configurada (Ex: Aula1, Aula2, Aula3...).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
-#### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configurações por meio da lampada novamente. Ex: escrever #include <xxx.h>
+#### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configurações por meio da lampada novamente. Ex: escrever #include <abc.h>
 #### 3. Clique em "Editar a configuração de IncludePath" -> Selecione a pasta do arquivo caso o vscode pergunte.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath2.png)  
 #### 3.1. Também é possível chegar nas configurações pela aba de problemas.
