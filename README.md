@@ -1,8 +1,8 @@
 # Conio2-VsCode
 ### Será necessário utilizar o compilador TDM-GCC 4.7.1 (x86) (Versão Modificada).
 ### Obter o compilador através de um dos métodos: 
-### 1. Usar o compilador incluído com os arquivos do Dev-C++ (Fornecido pela faculdade) + Configuração do Conio2. *Caso queira desinstalar o Dev, retire o compilador de dentro dos arquivos para utilizar na compilação.
-### 2. Usar o compilador incluído neste repositório (MinGW64.7z). O compilador incluso já contém a biblioteca Conio2 inserida e configurada. Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
+### 1. Usar o compilador incluído neste repositório (MinGW64.7z). O compilador incluso já contém a biblioteca Conio2 inserida e configurada. *Será necessário alterar os caminhos fornecidos ao longo do tutorial baseado em onde o arquivo for colocado no seu PC.
+### 2. Usar o compilador incluído com os arquivos do (Dev-C++) + Configuração do Conio2 (Fornecido pela faculdade). *Caso queira desinstalar o Dev, retire o compilador de dentro dos arquivos do programa.
 
 ***
 
@@ -34,15 +34,16 @@
 #### Para testar, abra o cmd, digite: "g++ --version" e verifique se obtem o retorno: "g++ (tdm64-1) 4.7.1"
 ![CMD](https://github.com/mateus-sm/Images/blob/main/cmd.png)
 
-### Caso queira manter outro compilador no path, basta manter abaixo do recém colocado, quando quiser usar o antigo coloque o mesmo por cima. Os caminhos são priorizados de cima para baixo.
+### Caso queira manter mais de um compilador no path, basta manter abaixo do recém adicionado, quando quiser usar o outro coloque o mesmo por cima. Os caminhos são priorizados de cima para baixo.
 ![PATH](https://github.com/mateus-sm/Images/blob/main/path.png)
 
 ***
 
 ## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%2B%2B.png" width = "70"></a>
 > ### A extensão servirá para as correções em tempo real do código, Intelisense.
-#### 1. Abra uma pasta(não abra apenas o arquivo) que contenha um código que importa o conio2.h (#include <conio2.h>).
-> ### É necessário que seja feito em uma pasta pois, ao configurar os passos abaixo, a extensão criará um arquivo .vscode dentro da pasta que você estiver trabalhando, esse arquivo(.vscode) irá conter as configurações que farão com que o código funcione corretamente, então, toda vez que uma pasta nova for criada que não contenha esse arquivo(.vscode), será necessario seguir os passos abaixo para que ele seja criado. Desta forma recomendo que, crie uma pasta geral para todos os códigos de C (Ex: ATP2), qualquer pasta dentro desta já estará configurada (Ex: Aula1, Aula2, Aula3...).
+## Configuração local(Valida na pasta na qual o código estiver)
+> ### Ao configurar os passos abaixo, a extensão criará um arquivo .vscode dentro da pasta que você estiver trabalhando, esse arquivo(.vscode) irá conter as configurações que farão com que o intelisense funcione corretamente, então, toda vez que uma pasta nova for criada que não contenha esse arquivo(.vscode), será necessario seguir os passos abaixo para que ele seja criado. 
+#### 1. Abra o arquivo que contenha um código que importa o conio2.h (#include <conio2.h>).
 #### 2. A linha do include provavelmente estará sublinhada em vermelho, clique nessa linha e logo após na lampada a esquerda.
 ![Imagem Demonstração](https://github.com/mateus-sm/Images/blob/main/IncludePath.png) 
 #### *Quando quiser entrar na tela de configuração do intelisense é posível escrever um include incorreto e entrar nas configurações por meio da lampada novamente. Ex: escrever #include <abc.h>
@@ -60,6 +61,15 @@
 
 #### Exemplo:
  ![Gif Demonstração](https://github.com/mateus-sm/Images/blob/main/Exemplo-C++.gif)  
+
+## Configuração global
+> ### Ao configurar os passos abaixo, será como aplicar o item 4 da seção anterior para qualquer pasta com codigos C / C++ abertas no VsCode. Deste modo não será necessario criar pastas .vscode daqui em diante.
+#### 1. Abra as configurações (Atalho: aperte CTRL + Virgula)
+#### 2. Na caixa de texto procure pela configuração C_Cpp.default.compilerPath 
+#### 3. Clique em editar em settings.json
+#### 4. Entre as aspas coloque um caminho para o compilador gcc ou g++ tal qual a instrução 4.
+#### Exemplo:
+    "C_Cpp.default.compilerPath": "C:/ (...) /Dev-Cpp/MinGW64/bin/g++.exe",
 
 ***
 
