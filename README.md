@@ -39,7 +39,7 @@
 
 ***
 
-## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%2B%2B.png" width = "70"></a>
+## III. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%20%20.png" width = "70"></a>
 > ### A extensão servirá para as correções em tempo real do código, Intelisense.
 ## Configuração local(Valida na pasta na qual o código estiver)
 > ### Ao configurar os passos abaixo, a extensão criará um arquivo .vscode dentro da pasta que você estiver trabalhando, esse arquivo(.vscode) irá conter as configurações que farão com que o intelisense funcione corretamente, então, toda vez que uma pasta nova for criada que não contenha esse arquivo(.vscode), será necessario seguir os passos abaixo para que ele seja criado. 
@@ -60,7 +60,7 @@
  #### 6. Em "Incluir caminho" apague todo o conteúdo.
 
 #### Exemplo:
- ![Gif Demonstração](https://github.com/mateus-sm/Images/blob/main/Exemplo-C++.gif)  
+ ![Gif Demonstração](https://github.com/mateus-sm/Images/blob/main/Exemplo-C%20%20.gif)  
 
 ## Configuração global
 > ### Ao configurar os passos abaixo, será como aplicar o item 4 da seção anterior para qualquer pasta com codigos C / C++ abertas no VsCode. Deste modo não será necessario criar pastas .vscode daqui em diante.
