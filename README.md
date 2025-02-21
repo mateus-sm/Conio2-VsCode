@@ -15,7 +15,7 @@
 
 ***
 
-## 🚩 Usar apenas o compilador (Opicional).
+## 🚩 Usar apenas o compilador (Opcional).
 > Com o compilador instalado é possível compilar códigos em C/C++ sem precisar utilizar uma IDE. Para compilar va até a pasta onde está seu código através de um terminal de sua preferência e execute o comando abaixo.
 
     "C:\Compilador-Conio2\MinGW64\bin\g++.exe" Exemplo.c -o Exemplo -I"C:\Compilador-Conio2\MinGW64\x86_64-w64-mingw32\include" -L"C:\Compilador-Conio2\MinGW64\x86_64-w64-mingw32\lib32" -static-libgcc -lconio -m32
@@ -37,7 +37,7 @@
 
       "cpp": "cd $dir && \"C:\\Compilador-Conio2\\MinGW64\\bin\\g++.exe\" $fileName -o $fileNameWithoutExt -I\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\include\" -L\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\lib32\" -static-libgcc -lconio -m32 && start $fileNameWithoutExt.exe",
 
-      "c": "cd $dir && \"C:\\Compilador-Conio2\\MinGW64\\bin\\gcc.exe\" $fileName -o $fileNameWithoutExt -I\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\include\" -L\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\lib32\" -static-libgcc -lconio -m32 && start $fileNameWithoutExt.exe",
+      "c": "cd $dir && \"C:\\Compilador-Conio2\\MinGW64\\bin\\gcc.exe\" $fileName -o $fileNameWithoutExt -I\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\include\" -L\"C:\\Compilador-Conio2\\MinGW64\\x86_64-w64-mingw32\\lib32\" -static-libgcc -lconio -m32 -std=c99 && start $fileNameWithoutExt.exe",
 
     }
 
