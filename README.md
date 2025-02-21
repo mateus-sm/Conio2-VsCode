@@ -4,8 +4,8 @@
 ## 📦 Pré-requisitos
 ### 1. Instalar o Compilador
 - Baixe o arquivo `Compilador-Conio2.rar` deste repositório (Compilador-Conio2.rar). 
-> O compilador já contém a biblioteca Conio2 inserida e configurada. 
 - Extraia o conteúdo para **C:\\**
+
 ### ⚠️ Limitações do Ambiente
 - Compilação em **32 bits** por padrão
 - Versão antiga do GCC (4.7.1)
@@ -14,7 +14,7 @@
 ***
 
 ## 🔧 Configuração do VS Code
-## I. Instale e configure a extensão - Code Runner <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"><img src = "https://github.com/mateus-sm/Images/blob/main/CodeRunner.png"></a>
+## I. Instale e configure a extensão - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 > Essa extensão serve para que seja definido o que você quer que o VsCode irá fazer com determinado arquivo baseado em sua extensão.
 #### 1. Abra as configurações (Atalho: aperte CTRL + Virgula)
 #### 2. Na caixa de texto procure pela configuração code-runner.executorMap
@@ -31,8 +31,7 @@
 
     }
 
-## 🚀 Executando o Código
-## II. Instalar e configurar a extensão - C/C++ Extension Pack <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"><img src = "https://github.com/mateus-sm/Images/blob/main/C-C%20%20.png" width = "70"></a>
+## II. Instalar e configurar a extensão - [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
 > A extensão servirá para as correções em tempo real do código, Intelisense.
 
 ## Configuração global
@@ -45,6 +44,8 @@
     "C_Cpp.default.compilerPath": "C:/Compilador-Conio2/MinGW64/bin/g++.exe",
 
 ***
+
+## 🚀 Executando o Código
 
  ### Como executar o arquivo : 
 #### Opção 1. Botão direitro do mouse + Run Code  
