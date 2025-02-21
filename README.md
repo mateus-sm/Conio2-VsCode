@@ -3,19 +3,19 @@
 
 ## 📦 Pré-requisitos
 ### 1. Instalar o Compilador
-- Baixe o arquivo `Compilador-Conio2.rar` deste repositório (Compilador-Conio2.rar). 
+- Baixe o arquivo `Compilador-Conio2.rar` deste repositório. 
 - Extraia o conteúdo para **C:\\**
 
 ### ⚠️ Limitações do Ambiente
 - Compilação em **32 bits** por padrão
-- Versão antiga do GCC (4.7.1)
+- Versão do GCC (4.7.1)
 > Ao finalizar a configuração, seus códigos que utilizam conio2.h serão compilados em um compilador de versão considerada antiga, gerando executáveis em 32 bits. Tenha em mente que: Se seu projeto exigir um compilador atualizado ou código compilado para 64 bits, será necessário ajustar o processo de compilação.
 
 ***
 
 ## 🔧 Configuração do VS Code
 ## I. Instale e configure a extensão - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-> Essa extensão serve para que seja definido o que você quer que o VsCode irá fazer com determinado arquivo baseado em sua extensão.
+> Essa extensão serve para definir o que o VsCode irá fazer com determinado arquivo baseado em sua extensão.
 #### 1. Abra as configurações (Atalho: aperte CTRL + Virgula)
 #### 2. Na caixa de texto procure pela configuração code-runner.executorMap
 #### 3. Clique em editar em settings.json
